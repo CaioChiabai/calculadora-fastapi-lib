@@ -10,9 +10,9 @@ setup(
     description="Biblioteca de operações matemáticas básicas em Python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Paulo Sérgio dos Santos Júnior",
-    author_email="paulossjuniorlgmail.com",
-    url="https://github.com/paulossjunior/calculatora-fastapi-lib",
+    author="Caio Chiabai de Oliveira",
+    author_email="caiochiabaioliveira@gmail.com",
+    url="https://github.com/CaioChiabai/calculadora-fastapi-lib",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
