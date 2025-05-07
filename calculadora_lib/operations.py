@@ -1,3 +1,5 @@
+import math
+
 def add(a: float, b: float) -> float:
     """
     Retorna a soma de dois números.
@@ -54,3 +56,11 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Divisão por zero não é permitida.")
     return a / b
+
+def power(a: float, b: float) -> float:
+    return a ** b
+
+def square_root(a: float) -> float:
+    if a < 0:
+        raise ValueError("Não é possível calcular a raiz quadrada de um número negativo.")
+    return math.sqrt(a)
